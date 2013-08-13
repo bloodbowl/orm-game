@@ -1,0 +1,32 @@
+{
+    "name": "bloodbowl/orm-game",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Barney Hanlon",
+            "email": "barney@shrikeh.net"
+        }
+    ],
+    "description": "Simple ORM for interacting with the Blood Bowl game db",
+    "require" : {
+        "php":                      ">=5.4.1",
+        "doctrine/orm":             "*",
+        "shrikeh/doctrine-tools":   "dev-master"
+    },
+    "require-dev" : {
+        "pimple/pimple": "1.*",
+        "phpunit/phpunit": ">=3.7.1",
+        "phploc/phploc": ">=1.7.4",
+        "pdepend/pdepend": "*",
+        "shrink/phpcpd": "dev-master",
+        "zerkalica/php-code-browser": "dev-master",
+        "phpmd/phpmd" : ">=1.4.0",
+        "squizlabs/php_codesniffer": "1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "BloodBowl\\Game\\ORM": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
